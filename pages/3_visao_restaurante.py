@@ -55,7 +55,7 @@ def clean_code(df1):
 
 # ---------------------------- Estrutura lógica do código ----------------------------------------
 #------------------------------Import Dataset ----------------------------------------------------
-df = pd.read_csv('Python/train.csv')
+df = pd.read_csv('train.csv')
 # ----------------------------- limpando os dados ----------------------------------------------
 df1 = clean_code(df)
 
